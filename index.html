@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="slider">
-        <div class="slide-track">
-            <div class="slide">
-                <img src="jquery.jpeg">
-            </div>
-            <div class="slide">
-                <img src="jquery.jpeg">
-            </div>
-            <div class="slide">
-                <img src="jquery.jpeg">
-            </div>
-            <div class="slide">
-                <img src="jquery.jpeg">
-            </div>
-            <div class="slide">
-                <img src="jquery.jpeg">
-            </div>
-            <div class="slide">
-                <img src="jquery.jpeg">
-            </div>
+    <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+                <div class="glide__slide">
+                    <img src="jquery.jpeg">
+                </div>
+                <div class="glide__slide">
+                    <img src="jquery.jpeg">
+                </div>
+                <div class="glide__slide">
+                    <img src="jquery.jpeg">
+                </div>
+                <div class="glide__slide">
+                    <img src="jquery.jpeg">
+                </div>
+                <div class="glide__slide">
+                    <img src="jquery.jpeg">
+                </div>
+                <div class="glide__slide">
+                    <img src="jquery.jpeg">
+                </div>
+            </ul>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+    <script src="./script.js"></script>
 </body>
+
 </html>
