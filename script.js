@@ -1,22 +1,8 @@
-$(document).ready(function(){
-    $('.slide-track').slick({
-        slidesToShow:6,
-        slidesToScroll:1,
-        autoplay:true,
-        autoplaySpeed:1500,
-        arrows:false,
-        dots:false,
-         pauseOnHover:false,
-         responsive:[{
-             breakpoint:768,
-             settings:{
-                 slidesToShow:4
-             }
-            }, {
-             breakpoint:520,
-             settings:{
-                 slidesToShow:3
-             }
-         }]
-    });
-});
+new Glide(".glide", {
+  type: "carousel",
+  startAt: 0,
+  perView: 6,
+  autoplay: 1500,
+  hoverpause: false,
+  gap: 10,
+}).mount();
